@@ -22,7 +22,7 @@
 
   <xsl:template match="Vaerk">
     <!-- ACCESSIONS NUMMER -->
-    <xsl:value-of select="concat(nummer, ';')" />
+    <xsl:value-of select="concat(nummer, '#;')" />
 
     <!-- MATERIALE TYPE -->
     <xsl:value-of select="concat(declareVaerktype/tekst,';')" />
@@ -41,14 +41,23 @@
 
     <!-- INTERN NOTE -->
     <xsl:if test="declareTitelType/tekst != ''">
-      <xsl:value-of select="concat(declareTitelType/tekst,'#')" />
+      <xsl:call-template name="transform_characters">
+        <xsl:with-param name="field" select="declareTitelType/tekst" />
+      </xsl:call-template>
+      <xsl:value-of select="'#'" />
     </xsl:if>
     <xsl:if test="erhvervelsesbemaerkning != ''">
-      <xsl:value-of select="concat(erhvervelsesbemaerkning,'#')" />
+      <xsl:call-template name="transform_characters">
+        <xsl:with-param name="field" select="erhvervelsesbemaerkning" />
+      </xsl:call-template>
+      <xsl:value-of select="'#'" />
     </xsl:if>
     <xsl:if test="declareVaerkErhvervelsesmaade/tekst != ''">
       <xsl:if test="declareVaerkErhvervelsesmaade/tekst != ' [Blank]'">
-        <xsl:value-of select="concat(declareVaerkErhvervelsesmaade/tekst,'#')" />
+        <xsl:call-template name="transform_characters">
+          <xsl:with-param name="field" select="declareVaerkErhvervelsesmaade/tekst" />
+        </xsl:call-template>
+        <xsl:value-of select="'#'" />
       </xsl:if>
     </xsl:if>
     <xsl:value-of select="';'" />
@@ -244,10 +253,16 @@
       <xsl:value-of select="concat('(', $global_kunstner/foedtStartaar, ' - ', $global_kunstner/doedStartaar, ')')" />
     </xsl:if>
     <xsl:if test="$global_kunstner/titel">
-      <xsl:value-of select="concat(',', $global_kunstner/titel)" />
+      <xsl:value-of select="','" />
+      <xsl:call-template name="transform_characters">
+        <xsl:with-param name="field" select="$global_kunstner/titel" />
+      </xsl:call-template>
     </xsl:if>
     <xsl:if test="$global_kunstner/declareNationalitet/nationalitet">
-      <xsl:value-of select="concat(',', $global_kunstner/declareNationalitet/nationalitet)" />
+      <xsl:value-of select="','" />
+      <xsl:call-template name="transform_characters">
+        <xsl:with-param name="field" select="$global_kunstner/declareNationalitet/nationalitet" />
+      </xsl:call-template>
     </xsl:if>
 
 
@@ -255,8 +270,8 @@
 
   <xsl:template name="transform_characters">
     <xsl:param name="field" />
-    <xsl:value-of select="replace(replace(replace(replace(replace(replace(
-                                  $field,'&#13;&#10;', '##'), 
+    <xsl:value-of select="replace(replace(replace(replace(replace(replace($field,
+                                  '&#13;&#10;', '#'), 
                                   ';', ','), 
                                   $quot, ''),
                                   $apos ,''),
