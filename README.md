@@ -5,7 +5,7 @@ This will transform the KID museum metadata from Regin to a CSV format, which ca
 
 
 
-Run it like:
+Run it on Linux commandline like:
  `saxon export-test.xml extract.xsl -o:test.csv`
 
 This will transform the test-export.xml with the extract.xsl and create the test.csv output file.
