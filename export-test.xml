@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<DMDS 
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+     xsi:noNamespaceSchemaLocation="http://www.kulturarv.dk/fileadmin/user_upload/kulturarv/museer/dokumenter/dmds.xsd" 
+     version="1.09" 
+> 
+<!-- Full xml export -->
+<museum museumId="358" />
+<Export> 
+<GlobalKunstner extId="16154:GlobalKunstner">
+        <kidKunstnerId xsi:nil="true" />
+        <navn>Percheid, Nicola</navn>
+        <alternativtNavn>Persheid, Nikolaus</alternativtNavn>
+        <declareAlternativtNavnType>
+                <entryId>0</entryId>
+                <tekst> [Blank]</tekst>
+        </declareAlternativtNavnType>
+        <alternativtNavnTypeId>0</alternativtNavnTypeId>
+        <koen>M</koen>
+        <titel>Fotograf</titel>
+        <declareNationalitet>
+                <entryId>42</entryId>
+                <nationalitet>tysk</nationalitet>
+                <nationalitet_en>German</nationalitet_en>
+        </declareNationalitet>
+        <nationalitetId>42</nationalitetId>
+        <weilbachId xsi:nil="true" />
+        <declareFoedestedSted>
+                <entryId>1351</entryId>
+                <tekst>Koblenz</tekst>
+                <parentId>154</parentId>
+                <toplevelId>43</toplevelId>
+                <indent>2</indent>
+                <sortKey>Europa|Tyskland|Koblenz</sortKey>
+                <path>43.154.1351</path>
+        </declareFoedestedSted>
+        <foedestedStedId>1351</foedestedStedId>
+        <declareDoedsstedSted>
+                <entryId>15</entryId>
+                <tekst>Berlin</tekst>
+                <parentId>154</parentId>
+                <toplevelId>43</toplevelId>
+                <indent>2</indent>
+                <sortKey>Europa|Tyskland|Berlin</sortKey>
+                <path>43.154.15</path>
+        </declareDoedsstedSted>
+        <doedsstedStedId>15</doedsstedStedId>
+        <foedtStartaar>1864</foedtStartaar>
+        <foedtSlutaar>1864</foedtSlutaar>
+        <foedtStartdato>1864-12-03</foedtStartdato>
+        <foedtSlutdato>1864-12-03</foedtSlutdato>
+        <doedStartaar>1930</doedStartaar>
+        <doedSlutaar>1930</doedSlutaar>
+        <doedStartdato>1930-05-11</doedStartdato>
+        <doedSlutdato>1930-05-11</doedSlutdato>
+        <declareVirkestedSted>
+                <entryId>154</entryId>
+                <tekst>Tyskland</tekst>
+                <parentId>43</parentId>
+                <toplevelId>43</toplevelId>
+                <indent>1</indent>
+                <sortKey>Europa|Tyskland</sortKey>
+                <path>43.154</path>
+        </declareVirkestedSted>
+        <virkestedStedId>154</virkestedStedId>
+        <internNote xsi:nil="true" />
+        <eksternNote />
+</GlobalKunstner>
+<Kunstner extId="30363:Kunstner">
+        <globalKunstnerExtId>16154:GlobalKunstner</globalKunstnerExtId>
+        <repraesenteretId>1</repraesenteretId>
+        <kidKunstnerId xsi:nil="true" />
+        <navn>Percheid, Nicola</navn>
+        <koen>M</koen>
+        <foedested xsi:nil="true" />
+        <foedeaar xsi:nil="true" />
+        <doedssted xsi:nil="true" />
+        <doedsaar xsi:nil="true" />
+        <virkesteder xsi:nil="true" />
+        <internNote xsi:nil="true" />
+        <eksternNote xsi:nil="true" />
+</Kunstner>
+<Kunstner extId="83656:Kunstner">
+<globalKunstnerExtId>14010:GlobalKunstner</globalKunstnerExtId>
+<repraesenteretId>1</repraesenteretId>
+<kidKunstnerId xsi:nil="true" />
+<navn>global: Kalkau, Sophia</navn>
+<koen />
+<foedested xsi:nil="true" />
+<foedeaar xsi:nil="true" />
+<doedssted xsi:nil="true" />
+<doedsaar xsi:nil="true" />
+<virkesteder xsi:nil="true" />
+<internNote xsi:nil="true" />
+<eksternNote xsi:nil="true" />
+</Kunstner>
+<Kunstner extId="31562:Kunstner">
+<globalKunstnerExtId>14063:GlobalKunstner</globalKunstnerExtId>
+<repraesenteretId>1</repraesenteretId>
+<kidKunstnerId xsi:nil="true" />
+<navn>global: Jensen, Astrid Kruse</navn>
+<koen />
+<foedested xsi:nil="true" />
+<foedeaar xsi:nil="true" />
+<doedssted xsi:nil="true" />
+<doedsaar xsi:nil="true" />
+<virkesteder xsi:nil="true" />
+<internNote />
+<eksternNote xsi:nil="true" />
+</Kunstner>
+<Kunstner extId="81532:Kunstner">
+<globalKunstnerExtId>2006GK9282</globalKunstnerExtId>
+<repraesenteretId>1</repraesenteretId>
+<kidKunstnerId xsi:nil="true" />
+<navn>global: Larsen, Finn</navn>
+<koen />
+<foedested xsi:nil="true" />
+<foedeaar xsi:nil="true" />
+<doedssted xsi:nil="true" />
+<doedsaar xsi:nil="true" />
+<virkesteder xsi:nil="true" />
+<internNote />
+<eksternNote xsi:nil="true" />
+</Kunstner>
+<Kunstner extId="83600:Kunstner">
+<globalKunstnerExtId>2006GK4318</globalKunstnerExtId>
+<repraesenteretId>1</repraesenteretId>
+<kidKunstnerId xsi:nil="true" />
+<navn>global: Johansson, Lars</navn>
+<koen />
+<foedested xsi:nil="true" />
+<foedeaar xsi:nil="true" />
+<doedssted xsi:nil="true" />
+<doedsaar xsi:nil="true" />
+<virkesteder xsi:nil="true" />
+<internNote />
+<eksternNote xsi:nil="true" />
+</Kunstner>
+<Vaerk extId="189370:Vaerk">
+<nummer>1960-509/323</nummer>
+<vaerkKIDStatus />
+<vaerkArtType />
+<declareVaerktype>
+<entryId>35</entryId>
+<tekst>Fotografi</tekst>
+<parentId xsi:nil="true" />
+<toplevelId>35</toplevelId>
+<indent>0</indent>
+<sortKey>Fotografi</sortKey>
+<path>35</path>
+</declareVaerktype>
+<vaerktypeId>35</vaerktypeId>
+<declareAutenticitet>
+<entryId>17</entryId>
+<kode>BLN</kode>
+<tekst> [Blank]</tekst>
+</declareAutenticitet>
+<autenticitetId>17</autenticitetId>
+<autenticitetNote />
+<autenticitetNote_en />
+<titel>Uden titel</titel>
+<titel_en>untitled</titel_en>
+<declareTitelType>
+<entryId>2</entryId>
+<kode />
+<tekst>museumstitel</tekst>
+<tekst_en>museumstitel</tekst_en>
+</declareTitelType>
+<titelTypeId>2</titelTypeId>
+<declareTitel_enType>
+<entryId>2</entryId>
+<kode />
+<tekst>museumstitel</tekst>
+<tekst_en>museumstitel</tekst_en>
+</declareTitel_enType>
+<titel_enTypeId>2</titel_enTypeId>
+<alternativTitel />
+<dateringStartaar>1914</dateringStartaar>
+<dateringSlutaar>1918</dateringSlutaar>
+<dateringStartdato xsi:nil="true" />
+<dateringSlutdato xsi:nil="true" />
+<primaerDatering />
+<beskrivelse />
+<materialeTeknik />
+<materialeTeknik_en />
+<signaturBetegnelse>Recto: f.n.m.f.: På karton. I blæk: Fotografens egen påskrift, sign. og dat.</signaturBetegnelse>
+<paaskrifter />
+<nettomaal>Billedmål 229 x 169 mm</nettomaal>
+<bruttomaal />
+<montering>Opklæbet på karton</montering>
+<ejer>Det Nationale Fotomuseum, Det Kongelige Bibliotek</ejer>
+<forvalter xsi:nil="true" />
+<declareVaerkErhvervelsesmaade>
+<entryId>27</entryId>
+<kode>BLN</kode>
+<tekst> [Blank]</tekst>
+</declareVaerkErhvervelsesmaade>
+<vaerkErhvervelsesmaadeId>27</vaerkErhvervelsesmaadeId>
+<erhvervelsesdato xsi:nil="true" />
+<erhvervelsesStartaar>1960</erhvervelsesStartaar>
+<erhvervelsesSlutaar>1960</erhvervelsesSlutaar>
+<erhvervelsesStartdato xsi:nil="true" />
+<erhvervelsesSlutdato xsi:nil="true" />
+<vaerkStatusNote />
+<erhvervelsesbemaerkning />
+<udstillet />
+<kunstnergruppe />
+<topografiskMotivStedId xsi:nil="true" />
+<relateredeVaerkerNote />
+<relateredeVaerkerNote_en />
+<ophavsret />
+<internNote />
+<eksternNote />
+<link objectExtId="30363:Kunstner" objectType="Kunstner" />
+<publiceres>1</publiceres>
+</Vaerk>
+<Vaerk extId="616775:Vaerk">
+<nummer>2016-10/3</nummer>
+<vaerkKIDStatus />
+<vaerkArtType />
+<declareVaerktype>
+<entryId>35</entryId>
+<tekst>Fotografi</tekst>
+<parentId xsi:nil="true" />
+<toplevelId>35</toplevelId>
+<indent>0</indent>
+<sortKey>Fotografi</sortKey>
+<path>35</path>
+</declareVaerktype>
+<vaerktypeId>35</vaerktypeId>
+<declareAutenticitet>
+<entryId>17</entryId>
+<kode>BLN</kode>
+<tekst> [Blank]</tekst>
+</declareAutenticitet>
+<autenticitetId>17</autenticitetId>
+<autenticitetNote />
+<autenticitetNote_en />
+<titel>Uden titel</titel>
+<titel_en>Untitled</titel_en>
+<declareTitelType>
+<entryId>2</entryId>
+<kode />
+<tekst>museumstitel</tekst>
+<tekst_en>museumstitel</tekst_en>
+</declareTitelType>
+<titelTypeId>2</titelTypeId>
+<declareTitel_enType>
+<entryId>2</entryId>
+<kode />
+<tekst>museumstitel</tekst>
+<tekst_en>museumstitel</tekst_en>
+</declareTitel_enType>
+<titel_enTypeId>2</titel_enTypeId>
+<alternativTitel />
+<dateringStartaar>1978</dateringStartaar>
+<dateringSlutaar>1989</dateringSlutaar>
+<dateringStartdato xsi:nil="true" />
+<dateringSlutdato xsi:nil="true" />
+<primaerDatering />
+<beskrivelse />
+<materialeTeknik>sølv-gelatine</materialeTeknik>
+<materialeTeknik_en>gelatin silver print</materialeTeknik_en>
+<signaturBetegnelse />
+<paaskrifter />
+<nettomaal>Billedmål: 150 x 222 mm. </nettomaal>
+<bruttomaal />
+<montering>opkløbet på pap</montering>
+<ejer>Det Nationale Fotomuseum, Det Kongelige Bibliotek</ejer>
+<forvalter xsi:nil="true" />
+<declareVaerkErhvervelsesmaade>
+<entryId>27</entryId>
+<kode>BLN</kode>
+<tekst> [Blank]</tekst>
+</declareVaerkErhvervelsesmaade>
+<vaerkErhvervelsesmaadeId>27</vaerkErhvervelsesmaadeId>
+<erhvervelsesdato xsi:nil="true" />
+<erhvervelsesStartaar xsi:nil="true" />
+<erhvervelsesSlutaar xsi:nil="true" />
+<erhvervelsesStartdato xsi:nil="true" />
+<erhvervelsesSlutdato xsi:nil="true" />
+<vaerkStatusNote />
+<erhvervelsesbemaerkning />
+<udstillet />
+<kunstnergruppe />
+<topografiskMotivStedId xsi:nil="true" />
+<relateredeVaerkerNote />
+<relateredeVaerkerNote_en />
+<ophavsret>Haves ikke</ophavsret>
+<internNote />
+<eksternNote />
+<link objectExtId="81532:Kunstner" objectType="Kunstner" />
+<link objectExtId="83600:Kunstner" objectType="Kunstner" />
+<publiceres>1</publiceres>
+</Vaerk>
+<Vaerk extId="614823:Vaerk">
+<nummer>2016-846/1</nummer>
+<vaerkKIDStatus />
+<vaerkArtType />
+<declareVaerktype>
+<entryId>35</entryId>
+<tekst>Fotografi</tekst>
+<parentId xsi:nil="true" />
+<toplevelId>35</toplevelId>
+<indent>0</indent>
+<sortKey>Fotografi</sortKey>
+<path>35</path>
+</declareVaerktype>
+<vaerktypeId>35</vaerktypeId>
+<declareAutenticitet>
+<entryId>17</entryId>
+<kode>BLN</kode>
+<tekst> [Blank]</tekst>
+</declareAutenticitet>
+<autenticitetId>17</autenticitetId>
+<autenticitetNote />
+<autenticitetNote_en />
+<titel>Fragments of Remembrance #6</titel>
+<titel_en>Fragments of Remembrance #6</titel_en>
+<declareTitelType>
+<entryId>1</entryId>
+<kode />
+<tekst>kunstnertitel</tekst>
+<tekst_en>kunstnertitel</tekst_en>
+</declareTitelType>
+<titelTypeId>1</titelTypeId>
+<declareTitel_enType>
+<entryId>1</entryId>
+<kode />
+<tekst>kunstnertitel</tekst>
+<tekst_en>kunstnertitel</tekst_en>
+</declareTitel_enType>
+<titel_enTypeId>1</titel_enTypeId>
+<alternativTitel />
+<dateringStartaar>2014</dateringStartaar>
+<dateringSlutaar>2015</dateringSlutaar>
+<dateringStartdato xsi:nil="true" />
+<dateringSlutdato xsi:nil="true" />
+<primaerDatering />
+<beskrivelse />
+<materialeTeknik>archival pigment print</materialeTeknik>
+<materialeTeknik_en>archival pigment print</materialeTeknik_en>
+<signaturBetegnelse />
+<paaskrifter />
+<nettomaal>Papirmål:111,5 x 111,5 cm Billedemål:</nettomaal>
+<bruttomaal />
+<montering />
+<ejer>Det Nationale Fotomuseum, Det Kongelige Bibliotek</ejer>
+<forvalter xsi:nil="true" />
+<declareVaerkErhvervelsesmaade>
+<entryId>10</entryId>
+<kode>KMT</kode>
+<tekst>Købt med tilskud</tekst>
+</declareVaerkErhvervelsesmaade>
+<vaerkErhvervelsesmaadeId>10</vaerkErhvervelsesmaadeId>
+<erhvervelsesdato xsi:nil="true" />
+<erhvervelsesStartaar xsi:nil="true" />
+<erhvervelsesSlutaar xsi:nil="true" />
+<erhvervelsesStartdato xsi:nil="true" />
+<erhvervelsesSlutdato xsi:nil="true" />
+<vaerkStatusNote />
+<erhvervelsesbemaerkning>Købt med støtte fra Ny Carlsberg Fondet</erhvervelsesbemaerkning>
+<udstillet />
+<kunstnergruppe />
+<topografiskMotivStedId xsi:nil="true" />
+<relateredeVaerkerNote />
+<relateredeVaerkerNote_en />
+<ophavsret />
+<internNote />
+<eksternNote />
+<link objectExtId="31562:Kunstner" objectType="Kunstner" />
+<publiceres>1</publiceres>
+</Vaerk>
+<Vaerk extId="617605:Vaerk">
+<nummer>2016-23</nummer>
+<vaerkKIDStatus />
+<vaerkArtType />
+<declareVaerktype>
+<entryId>35</entryId>
+<tekst>Fotografi</tekst>
+<parentId xsi:nil="true" />
+<toplevelId>35</toplevelId>
+<indent>0</indent>
+<sortKey>Fotografi</sortKey>
+<path>35</path>
+</declareVaerktype>
+<vaerktypeId>35</vaerktypeId>
+<declareAutenticitet>
+<entryId>17</entryId>
+<kode>BLN</kode>
+<tekst> [Blank]</tekst>
+</declareAutenticitet>
+<autenticitetId>17</autenticitetId>
+<autenticitetNote />
+<autenticitetNote_en />
+<titel>Ball Carrier's Dream</titel>
+<titel_en>Ball Carrier's Dream</titel_en>
+<declareTitelType>
+<entryId>1</entryId>
+<kode />
+<tekst>kunstnertitel</tekst>
+<tekst_en>kunstnertitel</tekst_en>
+</declareTitelType>
+<titelTypeId>1</titelTypeId>
+<declareTitel_enType>
+<entryId>1</entryId>
+<kode />
+<tekst>kunstnertitel</tekst>
+<tekst_en>kunstnertitel</tekst_en>
+</declareTitel_enType>
+<titel_enTypeId>1</titel_enTypeId>
+<alternativTitel />
+<dateringStartaar>2015</dateringStartaar>
+<dateringSlutaar>2015</dateringSlutaar>
+<dateringStartdato xsi:nil="true" />
+<dateringSlutdato xsi:nil="true" />
+<primaerDatering />
+<beskrivelse />
+<materialeTeknik>Lucia-print</materialeTeknik>
+<materialeTeknik_en>Lucia Print</materialeTeknik_en>
+<signaturBetegnelse />
+<paaskrifter />
+<nettomaal />
+<bruttomaal>1430 x 1070 mm</bruttomaal>
+<montering>Indrammet</montering>
+<ejer>Det Nationale Fotomuseum, Det Kongelige Bibliotek</ejer>
+<forvalter xsi:nil="true" />
+<declareVaerkErhvervelsesmaade>
+<entryId>10</entryId>
+<kode>KMT</kode>
+<tekst>Købt med tilskud</tekst>
+</declareVaerkErhvervelsesmaade>
+<vaerkErhvervelsesmaadeId>10</vaerkErhvervelsesmaadeId>
+<erhvervelsesdato xsi:nil="true" />
+<erhvervelsesStartaar>2016</erhvervelsesStartaar>
+<erhvervelsesSlutaar>2016</erhvervelsesSlutaar>
+<erhvervelsesStartdato xsi:nil="true" />
+<erhvervelsesSlutdato xsi:nil="true" />
+<vaerkStatusNote />
+<erhvervelsesbemaerkning />
+<udstillet />
+<kunstnergruppe />
+<topografiskMotivStedId xsi:nil="true" />
+<relateredeVaerkerNote />
+<relateredeVaerkerNote_en />
+<ophavsret>Haves ikke</ophavsret>
+<internNote />
+<eksternNote />
+<link objectExtId="83656:Kunstner" objectType="Kunstner" />
+<publiceres>1</publiceres>
+</Vaerk>
+<ObjektOpbevaring parentExtId="614823:Vaerk" ObjektOpbevaringType="VaerkOpbevaring" extId="3492748:VaerkOpbevaring">
+<declareOpbevaringType>
+<entryId>2</entryId>
+<kode>MAG</kode>
+<tekst>magasin</tekst>
+</declareOpbevaringType>
+<opbevaringTypeId>2</opbevaringTypeId>
+<opbevaringExtId>851159:Opbevaring</opbevaringExtId>
+<opbevaringsdato>2016-05-24</opbevaringsdato>
+<udstillingsnavn />
+<internNote xsi:nil="true" />
+<eksternNote xsi:nil="true" />
+</ObjektOpbevaring>
+<ObjektOpbevaring parentExtId="616775:Vaerk" ObjektOpbevaringType="VaerkOpbevaring" extId="3666804:VaerkOpbevaring">
+<declareOpbevaringType>
+<entryId>2</entryId>
+<kode>MAG</kode>
+<tekst>magasin</tekst>
+</declareOpbevaringType>
+<opbevaringTypeId>2</opbevaringTypeId>
+<opbevaringExtId>1021084:Opbevaring</opbevaringExtId>
+<opbevaringsdato>2017-07-06</opbevaringsdato>
+<udstillingsnavn />
+<internNote xsi:nil="true" />
+<eksternNote xsi:nil="true" />
+</ObjektOpbevaring>
+<ObjektOpbevaring parentExtId="189370:Vaerk" ObjektOpbevaringType="VaerkOpbevaring" extId="1469697:VaerkOpbevaring">
+<declareOpbevaringType>
+<entryId>2</entryId>
+<kode>MAG</kode>
+<tekst>magasin</tekst>
+</declareOpbevaringType>
+<opbevaringTypeId>2</opbevaringTypeId>
+<opbevaringExtId>568288:Opbevaring</opbevaringExtId>
+<opbevaringsdato>2009-04-14</opbevaringsdato>
+<udstillingsnavn />
+<internNote />
+<eksternNote xsi:nil="true" />
+</ObjektOpbevaring>
+<Opbevaring extId="568288:Opbevaring">
+<bygning />
+<rum />
+<skab />
+<hylde />
+<skuffe>UDL, Perscheid, Nicola, B1</skuffe>
+<internNote xsi:nil="true" />
+<eksternNote xsi:nil="true" />
+</Opbevaring>
+<Opbevaring extId="677981:Opbevaring">
+<bygning />
+<rum />
+<skab />
+<hylde />
+<skuffe>Dk, Thesander; Torben, A5</skuffe>
+<internNote xsi:nil="true" />
+<eksternNote xsi:nil="true" />
+</Opbevaring>
+<Opbevaring extId="1021084:Opbevaring">
+<bygning>N112</bygning>
+<rum />
+<skab />
+<hylde />
+<skuffe>DK, Larsen, Finn, B1</skuffe>
+<internNote xsi:nil="true" />
+<eksternNote xsi:nil="true" />
+</Opbevaring>
+<Opbevaring extId="851159:Opbevaring">
+<bygning>112</bygning>
+<rum>A</rum>
+<skab>Reolrække 20</skab>
+<hylde />
+<skuffe />
+<internNote xsi:nil="true" />
+<eksternNote xsi:nil="true" />
+</Opbevaring>
+
+
+
+</Export>
+
+</DMDS>
+
